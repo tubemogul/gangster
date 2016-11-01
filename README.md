@@ -4,9 +4,10 @@ Gangster is a small daemon written in Golang that polls gmond for the metrics an
 
 ## Code Example
 
-Gangster reads its configuration parameters from the environment variables. To see all the available parameters kist start it.
+Gangster reads its configuration parameters from the environment variables. To see all the available parameters just start it with the `help` argument.
 
-````
+```
+./gangster help
 GANGSTER_GMOND_ADDRESS [mandatory]: address which gmond listens. Exmaple: 127.0.0.1
 GANGSTER_GMOND_PORT [mandatory]: port which listens gmond. Example: 8649
 GANGSTER_CARBON_ADDRESS [mandatory]: address where gangster should send metrics. Example: carbon01
