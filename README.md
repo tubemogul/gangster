@@ -1,10 +1,10 @@
 ## Synopsis
 
-Gangster is a small daemon written in Golang that polls gmond for the metrics and sends them to the Carbon using plain-text protocol.
+Gangster is the small daemon written in Golang that polls gmond for the metrics and sends them to carbon using plain-text protocol.
 
 ## Code Example
 
-Gangster reads its configuration parameters from the environment variables. To see all the available parameters just start it with the `help` argument.
+Gangster reads configuration parameters from the environment variables. To see all the available parameters just start it with the `help` argument.
 
 ```
 ./gangster help
