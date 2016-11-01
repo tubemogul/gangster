@@ -21,4 +21,4 @@ GANGSTER_SLEEP_TIME: sleep time between gmond polls
 
 ## Installation
 
-It have no non-standart requirements, so you can just compile with the `go build` command.
+It has no non-standart requirements, so you can just compile with the `go build` command.
